@@ -1,0 +1,16 @@
+{
+  "name": "FORGE — Full-Stack & Data Bootcamp",
+  "short_name": "FORGE",
+  "description": "A 26-week zero-to-professional bootcamp in full-stack engineering and data analysis. Works offline.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b0f14",
+  "theme_color": "#0b0f14",
+  "categories": ["education", "books", "productivity"],
+  "icons": [
+    { "src": "favicon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

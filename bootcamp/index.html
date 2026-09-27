@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FORGE — Full-Stack &amp; Data Bootcamp</title>
+<meta name="description" content="A 26-week, zero-to-professional bootcamp in full-stack engineering and data analysis. 56 lessons, 60 real-world sector problems, 68 graded exercises with answer keys, 12 shipped projects. Works offline." />
+<meta name="theme-color" content="#0b0f14" />
+<meta name="color-scheme" content="dark" />
+
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="FORGE — Zero to Professional in 26 Weeks" />
+<meta property="og:description" content="Full-stack engineering + data analysis. 48 lessons, 60 real-world sector problems, 12 shipped projects." />
+<meta property="og:image" content="og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="FORGE — Zero to Professional in 26 Weeks" />
+<meta name="twitter:description" content="Full-stack engineering + data analysis. 48 lessons, 60 real-world sector problems, 12 shipped projects." />
+<meta name="twitter:image" content="og-image.png" />
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip" href="#content">Skip to lesson content</a>
+<div id="app">
+  <aside id="sidebar" aria-label="Curriculum navigation">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">F</div>
+      <div>
+        <h1>FORGE</h1>
+        <p>Full-Stack + Data · 26 weeks</p>
+      </div>
+    </div>
+    <div class="progress-block">
+      <div class="bar" role="progressbar" aria-labelledby="progtext"><span id="progbar"></span></div>
+      <div class="progress-meta"><span id="progtext">0%</span><button id="resetbtn" title="Reset all progress">reset</button></div>
+    </div>
+    <input id="search" type="search" placeholder="Search lessons, tools, projects… (/)" autocomplete="off" aria-label="Search the curriculum" />
+    <nav id="nav" aria-label="Lessons"></nav>
+    <div class="side-foot">
+      <div class="footrow">
+        <button id="printbtn">Print / PDF</button>
+        <button id="exportbtn" title="Download a backup file of your progress">Save backup</button>
+        <button id="importbtn" title="Restore progress from a backup file">Restore</button>
+      </div>
+      <input type="file" id="importfile" accept=".json,application/json" hidden />
+      <p class="tiny" id="savetxt">Progress is saved in your browser.</p>
+    </div>
+  </aside>
+  <main id="main">
+    <div id="content" tabindex="-1"></div>
+    <div id="pager"></div>
+  </main>
+</div>
+<button id="menubtn" aria-label="Menu">☰</button>
+<script src="js/md.js"></script>
+<script src="data/meta.js"></script>
+<script src="data/curriculum-1.js"></script>
+<script src="data/curriculum-2.js"></script>
+<script src="data/curriculum-3.js"></script>
+<script src="data/sectors.js"></script>
+<script src="data/career.js"></script>
+<script src="data/exercises.js"></script>
+<script src="data/income.js"></script>
+<script src="data/global.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
